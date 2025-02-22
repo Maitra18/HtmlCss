@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color: black;
+        }
+        .d1{
+            width: 100px;
+            height:100px;
+            background-color: pink;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: 1;            
+        }
+        .d1:hover{
+            border: 2px solid balck;
+            background-image: url(img1.jpg);
+            background-size: contain;
+            border-radius: 100px;
+        }
+        .d2{
+            width: 100px;
+            height:100px;
+            background-color: palevioletred;
+            position: absolute;
+            border-radius: 100px;
+            top: 75px;
+            left: 75px;
+            
+        }
+        .d2:hover{
+            border: 2px solid balck;
+            background-color: white;
+            background-image: url(tire.jpg);
+            background-size: contain;
+            transform: scale(1) rotate(54000deg);
+            cursor: pointer;
+            transition: all 8s ease-in;
+            z-index: 1;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body >
+    <h1>HELLO!!</h1>
+    <div class="d1"></div>
+    <div class="d2"></div>
+</body>
+</html>

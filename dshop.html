@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: orange;
+            color: aliceblue;
+            text-align: center;
+            height: 100px;
+        }
+        .div2{
+            color: yellow;
+            background-color: black;
+        }
+        a:visited{
+            color: yellow;
+        }
+
+        .div3{
+            color: rgb(0, 110, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .grid{
+            display: grid;
+            
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+           
+            gap: 10px;
+        }
+        .griddata{
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+    <div class="div1">
+       <h1>ShopEase <br>gdsjjah</h1>
+    </div>
+    <nav class="div2"><center>
+            <a href="https://www.mercedesamgf1.com/" >home</a>
+            <a href="https://www.ferrari.com/en-EN/formula1" style="color:yellow;">link</a>
+            <a href="https://www.mclaren.com/racing/" style="color:yellow;">contact</a>
+            <label for="search"></label>
+            <input type="text" id="name" name="name" placeholder="search item..." ></center>
+        </nav>
+        <center><h2>Discover the deals today!!</h2></center><br><br>
+        <div class="grid">
+            <div class="griddata"><img src="f1f.jpg" alt="f1" height="100px" width="200px">
+        <br>Product1 $19.99 <br> <button type="Submit">Add to cart</button><br></div>
+        <div class="griddata"><img src="ASTON.jpg" alt="RR" height="100px" width="200px">
+        <br>Product3 $20<br><button type="Submit">Add to cart</button><br></div>
+        <div class="griddata"><img src="p.jpg" alt="RR" height="100px" width="200px">
+        <br>Product4 $20<br><button type="Submit">Add to cart</button></div>
+        <div class="griddata"><img src="RR.jpg" alt="RR" height="100px" width="200px">
+            <br>Product4 $20<br><button type="Submit">Add to cart</button></div>
+    </div>
+</header>
+</body>
+</html>

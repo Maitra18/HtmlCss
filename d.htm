@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .div{
+            display: grid;
+            width:1000px;
+            height:1000px;
+            border: 1px solid rgb(247, 11, 11) 50%;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+            gap: 10px;
+       }
+       .img{
+        border: 1px solid rgb(247, 11, 11) 50%;
+        background-image:url(img1.jpg) ;
+        background-size: contain;
+       }
+       .img:hover{
+        transform: scale(1.2);
+        border-radius: 20%;
+        transition:all 0.5s;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <h1>My Photo Album</h1>
+    <div class="div">
+        <div class="img">1</div>
+        <div class="img">2</div>
+        <div class="img">3</div>
+        <div class="img">3</div>
+        <div class="img">1</div>
+        <div class="img">2</div>
+        <div class="img">3</div>
+        <div class="img">3</div>
+    </div>
+    
+    
+</body>
+</html>
